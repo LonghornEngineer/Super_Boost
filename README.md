@@ -1,20 +1,16 @@
-Super_Boost
-===========
+![LHE_BANNER](LHE_BANNER.png)
+***
+###Super_Boost
+***
+**Dual footprint for the P8X32A-Q44 and P8X32A-M44 32-bit MCU.**
 
-This design is inspired by the <a href="http://www.ladyada.net/make/mintyboost/">Minty Boost</a> but it fixes some of the issues that I had with it. The Minty Boost is limited to 600mA due to the <a href="http://www.linear.com/product/LT1302">LT1302</a> chip. The Super Boost uses the <a href="http://www.national.com/pf/LM/LM2700.html">LM2700</a> which can push up to 3.6A. This will enable i-devices to draw up to there maximum of 1A which will enable a faster recharge. In the LM2700 current configuration it can push 2.3A. This is due to the switching duty cycle of the chip.
+The Super Boost uses the LM2700 to boost to 5V to charge USB devices.
 
-Charging more quickly will drain and reduce the life span of AA batteries so lithium batteries are the ideal source for this board. 
+See [here for more information](http://longhornengineer.com/category/projects/hardware/super-boost/).
 
-The board will take any voltage source between 2.2V to 4.5V and will output 5V.
+***
+**License Information**
 
+This project is under the [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE.md). These files are provided with no warranty and should be used at your own risk. 
 
-Board Files are for Cadsoft Eagle V6.0+
-
-Created by:
-Parker Dillmann
-The Longhorn Engineer
-
-http://longhornengineer.com/
-
-Disclaimer and licensing information can be found below.
-http://longhornengineer.com/diy/disclaimer/
+***
